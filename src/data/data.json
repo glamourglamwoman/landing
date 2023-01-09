@@ -1,0 +1,21 @@
+[
+
+    {
+        "id":"1",
+        "image":"/assets/product1.jpg",
+        "title":"hola",
+        "description": "",
+        "price":""
+
+    },
+    {
+        "id":"2",
+        "image":"/assets/product2.png",
+        "title":"hola",
+        "description": "",
+        "price":""
+
+    }
+
+
+]
