@@ -1,6 +1,6 @@
 {
   "name": "ecommerce",
-  "homepage": "https://glamourglamwoman.github.io/landing",
+  "home": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
