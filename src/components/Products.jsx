@@ -51,7 +51,7 @@ const Products = () => {
                     <li className="list-group-item">Vestibulum at eros</li> */}
                 </ul>
                 <div className="card-body">
-                  <Link to={"/product/" + product.id} className="btn btn-dark m-1">
+                  <Link to={"/landing/product/" + product.id} className="btn btn-dark m-1">
                     Buy Now
                   </Link>
                 </div>
