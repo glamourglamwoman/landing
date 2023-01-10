@@ -13,17 +13,13 @@ const dataFile = require('../data/data.json');
 
 const Products = () => {
   const [data, setData] = useState([]);
-  let componentMounted = true;
 
 
   useEffect(() => {
     const getProducts = async () => {
-      if (componentMounted) {
-        setData(dataFile);
-      }
+      setData(dataFile);
       return;
     };
-
     getProducts();
   }, []);
 
