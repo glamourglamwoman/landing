@@ -9,3 +9,13 @@
     padding-bottom: 80px;
     padding-top: 40px;
 }
+
+
+.footer-social-network-icon{
+    border-radius: 23px;
+    border-width: 2px;
+}
+
+.footer-brand{
+    padding-left: 10px;
+}
