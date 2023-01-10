@@ -14,17 +14,17 @@ root.render(
   <BrowserRouter>
     <Provider store={store}>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/product" element={<Products />} />
-        <Route path="/product/:id" element={<Product />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/contact" element={<ContactPage />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/landing" element={<Home />} />
+        <Route path="/landing/product" element={<Products />} />
+        <Route path="/landing/product/:id" element={<Product />} />
+        <Route path="/landing/about" element={<AboutPage />} />
+        <Route path="/landing/contact" element={<ContactPage />} />
+        <Route path="/landing/cart" element={<Cart />} />
+        <Route path="/landing/login" element={<Login />} />
+        <Route path="/landing/register" element={<Register />} />
+        <Route path="/landing/checkout" element={<Checkout />} />
         <Route path="*" element={<PageNotFound />} />
-        <Route path="/product/*" element={<PageNotFound />} />
+        <Route path="/landing/product/*" element={<PageNotFound />} />
       </Routes>
     </Provider>
   </BrowserRouter>
