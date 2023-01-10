@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 
 import "react-loading-skeleton/dist/skeleton.css";
 
-import { Link } from "react-router-dom";
-
 import './components.css';
 
 const dataFile = require('../data/data.json');
@@ -47,13 +45,11 @@ const Products = () => {
                 </div>
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item lead">$ {product.price}</li>
-                  {/* <li className="list-group-item">Dapibus ac facilisis in</li>
-                    <li className="list-group-item">Vestibulum at eros</li> */}
                 </ul>
                 <div className="card-body">
-                  <Link to={"/landing/product/" + product.id} className="btn btn-dark m-1">
-                    Buy Now
-                  </Link>
+                  <a className='btn btn-dark m-1' target="blank" href={product.url_sales}>
+                    Lo quiero!
+                  </a>
                 </div>
               </div>
             </div>

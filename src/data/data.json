@@ -5,7 +5,8 @@
         "image":"/landing/assets/product1.jpg",
         "title":"Maquillaje profesional en línea y certificado",
         "description": "Conviértete en una maquilladora profesional con nuestro curso online premium y obtén tu certificado de finalización. Aprende de los mejores maquilladores del mundo y sorprende a tus amigos con tus habilidades.",
-        "price":"200"
+        "price":"200",
+        "url_sales": "https://go.hotmart.com/J78222563S"
 
     },
     {
@@ -13,7 +14,8 @@
         "image":"/landing/assets/product2.png",
         "title":"Domina el arte de las uñas !",
         "description": "¡Aprende a ser un experto en uñas con nuestro curso online! En solo unos meses podrás dominar técnicas de decoración y diseño de uñas, y convertirte en un profesional altamente cualificado. ¡No esperes más y únete a nuestro curso hoy mismo!",
-        "price":""
+        "price":"200",
+        "url_sales":"https://go.hotmart.com/C78239973L?ap=602a"
 
     },
     {
@@ -21,9 +23,23 @@
         "image":"/landing/assets/product3.jpg",
         "title":"Maquilla tus ojos como una experta",
         "description": "Con nuestro curso online de master en ojos, aprenderás a crear miradas deslumbrantes y a destacar tus ojos como nunca antes. ¡Conviértete en una experta en maquillaje de ojos y sorprende a todos con tus habilidades!",
-        "price":""
-
+        "price":"200",
+        "url_sales":"https://go.hotmart.com/G78245150A?dp=1"
+    },
+    {
+        "id":"4",
+        "image":"/landing/assets/product4.jpg",
+        "title":"Maquilla tus ojos como una experta",
+        "description": "Con nuestro curso online de master en ojos, aprenderás a crear miradas deslumbrantes y a destacar tus ojos como nunca antes. ¡Conviértete en una experta en maquillaje de ojos y sorprende a todos con tus habilidades!",
+        "price":"200",
+        "url_sales":"https://go.hotmart.com/N78245192A?dp=1"
+    },
+    {
+        "id":"5",
+        "image":"/landing/assets/product5.jpg",
+        "title":"Maquilla tus ojos como una experta",
+        "description": "Con nuestro curso online de master en ojos, aprenderás a crear miradas deslumbrantes y a destacar tus ojos como nunca antes. ¡Conviértete en una experta en maquillaje de ojos y sorprende a todos con tus habilidades!",
+        "price":"200",
+        "url_sales":"https://go.hotmart.com/D78251683Q?dp=1"
     }
-
-
 ]
