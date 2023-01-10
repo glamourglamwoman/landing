@@ -2,7 +2,7 @@
 
     {
         "id":"1",
-        "image":"/assets/product1.jpg",
+        "image":"/landing/assets/product1.jpg",
         "title":"Maquillaje profesional en línea y certificado",
         "description": "Conviértete en una maquilladora profesional con nuestro curso online premium y obtén tu certificado de finalización. Aprende de los mejores maquilladores del mundo y sorprende a tus amigos con tus habilidades.",
         "price":"200"
@@ -10,7 +10,7 @@
     },
     {
         "id":"2",
-        "image":"/assets/product2.png",
+        "image":"/landing/assets/product2.png",
         "title":"Domina el arte de las uñas !",
         "description": "¡Aprende a ser un experto en uñas con nuestro curso online! En solo unos meses podrás dominar técnicas de decoración y diseño de uñas, y convertirte en un profesional altamente cualificado. ¡No esperes más y únete a nuestro curso hoy mismo!",
         "price":""
@@ -18,7 +18,7 @@
     },
     {
         "id":"3",
-        "image":"/assets/product3.jpg",
+        "image":"/landing/assets/product3.jpg",
         "title":"Maquilla tus ojos como una experta",
         "description": "Con nuestro curso online de master en ojos, aprenderás a crear miradas deslumbrantes y a destacar tus ojos como nunca antes. ¡Conviértete en una experta en maquillaje de ojos y sorprende a todos con tus habilidades!",
         "price":""

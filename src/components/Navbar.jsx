@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="container">
                 <NavLink className="navbar-brand fw-bold fs-4 px-2" to="/"> 
                 <img
-                    src="assets/logo.png"
+                    src="/landing/assets/logo.png"
                     alt="Card"
                     height={80}
                 />
