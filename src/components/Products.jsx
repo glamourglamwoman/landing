@@ -43,10 +43,10 @@ const Products = () => {
                 />
                 <div className="card-body">
                   <h5 className="card-title">
-                    {product.title.substring(0, 12)}...
+                    {product.title.substring(0, 500)}
                   </h5>
                   <p className="card-text">
-                    {product.description.substring(0, 90)}...
+                    {product.description.substring(0, 500)}...
                   </p>
                 </div>
                 <ul className="list-group list-group-flush">
@@ -72,8 +72,7 @@ const Products = () => {
       <div className="container my-3 py-3">
         <div className="row">
           <div className="col-12">
-            <h2 className="display-5 text-center">Productos disponibles!</h2>
-            <hr />
+            <h2 className="display-5 text-center main-product-title">Productos disponibles!</h2>
           </div>
         </div>
         <div className="row justify-content-center">

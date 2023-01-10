@@ -1,3 +1,11 @@
 .image-card{
-    width: 270px;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: auto;
+    height: auto;
+}
+
+.main-product-title{
+    padding-bottom: 80px;
+    padding-top: 40px;
 }
