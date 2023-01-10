@@ -19,16 +19,16 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav m-auto my-2 text-center">
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/">Home </NavLink>
+                            <NavLink className="nav-link" to="/landing">Home </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/product">Productos</NavLink>
+                            <NavLink className="nav-link" to="/landing/product">Productos</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/about">Conocenos</NavLink>
+                            <NavLink className="nav-link" to="/landing/about">Conocenos</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/contact">Contacto</NavLink>
+                            <NavLink className="nav-link" to="/landing/contact">Contacto</NavLink>
                         </li>
                     </ul>
                 </div>
