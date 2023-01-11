@@ -7,7 +7,6 @@ const Products = () => {
     <> 
       <Helmet>
           <meta charSet="utf-8" />
-          <title>Producto</title>
           <meta name="description" content="Ofrecemos cursos en línea de belleza de alta calidad." />
           <link rel="canonical" href="/landing/product" />
       </Helmet>
