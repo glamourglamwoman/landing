@@ -19,3 +19,26 @@
 .footer-brand{
     padding-left: 10px;
 }
+
+
+.price-red{
+    color:red;
+    text-decoration:line-through;
+    margin-right: 10px;
+    font-size: medium;
+}
+
+.price-red:hover{
+    text-decoration:line-through;
+}
+
+
+.price-green{
+    color:green;
+    font-weight:bolder;
+}
+
+
+.unit{
+    font-size: medium;
+}

@@ -13,9 +13,9 @@ const Home = () => {
           />
           <div className="card-img-overlay d-flex align-items-center">
             <div className="container">
-              <h5 className="card-title fs-1 text fw-lighter">Nueva temporada</h5>
+              <h5 className="card-title fs-1 text fw-lighter">Despierta tu belleza</h5>
               <p className="card-text fs-5 d-none d-sm-block ">
-              ¡Aprende a sacar tu belleza natural con nuestros cursos online! 
+                Aprende a sacar tu belleza natural con nuestros cursos online !
               </p>
             </div>
           </div>

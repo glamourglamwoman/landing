@@ -40,11 +40,21 @@ const Products = () => {
                     {product.title.substring(0, 500)}
                   </h5>
                   <p className="card-text">
-                    {product.description.substring(0, 500)}...
+                    {product.description.substring(0, 500)}
                   </p>
                 </div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item lead">$ {product.price}</li>
+                  <li className="list-group-item lead">
+                    {product.ofert?
+                      <span className='price-red'>{product.price} <span className='unit'>US$</span></span>:
+                      <span className='price-green'>{product.price} <span className='unit'>US$</span> </span>
+                    }
+                    {
+                      product.ofert?
+                        <span className='price-green'>{product.ofert} <span className='unit'>US$</span></span>:
+                        <></>
+                    }
+                  </li>
                 </ul>
                 <div className="card-body">
                   <a className='btn btn-dark m-1' target="blank" href={product.url_sales}>
@@ -76,3 +86,5 @@ const Products = () => {
 };
 
 export default Products;
+
+

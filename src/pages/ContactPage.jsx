@@ -1,6 +1,19 @@
 import React from "react";
 import { Footer, Navbar } from "../components";
+import emailjs from 'emailjs-com';
+
+
 const ContactPage = () => {
+
+
+
+  async function send_email(){
+    emailjs.send("service_da3sggd", "template_1p81j2b", {}, "2ABy68lCTolS5F5Ts");
+
+
+  }
+
+
   return (
     <>
       <Navbar />
@@ -41,7 +54,8 @@ const ContactPage = () => {
                 <button
                   class="my-2 px-4 mx-auto btn btn-dark"
                   type="submit"
-                  disabled
+                  
+                  onSubmit={send_email()}
                 >
                   Send
                 </button>
