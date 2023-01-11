@@ -1,35 +1,41 @@
-import React from "react";
+import {React, useRef} from "react";
 import { Footer, Navbar } from "../components";
 import emailjs from 'emailjs-com';
 
 
 const ContactPage = () => {
 
+  const form = useRef();
 
-
-  async function send_email(){
-    emailjs.send("service_da3sggd", "template_1p81j2b", {}, "2ABy68lCTolS5F5Ts");
-
-
-  }
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm('service_da3sggd', 'template_1p81j2b', form.current, '2ABy68lCTolS5F5Ts')
+      .then((result) => {
+          console.log(result.text);
+          e.target.reset();
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
 
   return (
     <>
       <Navbar />
       <div className="container my-3 py-3">
-        <h1 className="text-center">Contact Us</h1>
+        <h1 className="text-center">Contactanos</h1>
         <hr />
         <div class="row my-4 h-100">
           <div className="col-md-4 col-lg-4 col-sm-8 mx-auto">
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
               <div class="form my-3">
                 <label for="Name">Name</label>
                 <input
-                  type="email"
+                  type="name"
                   class="form-control"
                   id="Name"
-                  placeholder="Enter your name"
+                  name="name"
+                  placeholder="Introduzca su nombre"
                 />
               </div>
               <div class="form my-3">
@@ -38,6 +44,7 @@ const ContactPage = () => {
                   type="email"
                   class="form-control"
                   id="Email"
+                  name="email"
                   placeholder="name@example.com"
                 />
               </div>
@@ -46,7 +53,8 @@ const ContactPage = () => {
                 <textarea
                   rows={5}
                   class="form-control"
-                  id="Password"
+                  id="Message"
+                  name="message"
                   placeholder="Enter your message"
                 />
               </div>
@@ -54,10 +62,8 @@ const ContactPage = () => {
                 <button
                   class="my-2 px-4 mx-auto btn btn-dark"
                   type="submit"
-                  
-                  onSubmit={send_email()}
                 >
-                  Send
+                  Enviar
                 </button>
               </div>
             </form>
