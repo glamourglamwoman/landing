@@ -29,7 +29,7 @@ const ContactPage = () => {
           <div className="col-md-4 col-lg-4 col-sm-8 mx-auto">
             <form ref={form} onSubmit={sendEmail}>
               <div class="form my-3">
-                <label for="Name">Name</label>
+                <label for="Name">Nombre</label>
                 <input
                   type="name"
                   class="form-control"
@@ -45,17 +45,17 @@ const ContactPage = () => {
                   class="form-control"
                   id="Email"
                   name="email"
-                  placeholder="name@example.com"
+                  placeholder="nombre@ejemplo.com"
                 />
               </div>
               <div class="form  my-3">
-                <label for="Password">Message</label>
+                <label for="Password">Mensaje</label>
                 <textarea
                   rows={5}
                   class="form-control"
                   id="Message"
                   name="message"
-                  placeholder="Enter your message"
+                  placeholder="Ingrese su mensaje"
                 />
               </div>
               <div className="text-center">
