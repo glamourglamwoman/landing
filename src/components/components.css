@@ -42,3 +42,21 @@
 .unit{
     font-size: medium;
 }
+
+
+.button-style{
+    background-color: #C53683;
+    border-radius: 70px;
+    text-align: center;
+    border-color: #C53683;
+    font-size: large;
+    display: flex;
+    justify-content: center
+}
+
+
+.button-style:hover{
+    background-color: #C53683;
+    border-color: #C53683;
+
+}

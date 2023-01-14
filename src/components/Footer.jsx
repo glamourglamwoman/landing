@@ -17,8 +17,12 @@ const Footer = () => {
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
           <MDBBtn outline color="light" target="blank" floating className='m-1 footer-social-network-icon' href='https://www.tiktok.com/@glamour.glam.woman' role='button'>
+              <MDBIcon fab icon='instagram' />
+          </MDBBtn>     
+          <MDBBtn outline color="light" target="blank" floating className='m-1 footer-social-network-icon' href='https://www.instagram.com/glamour.glam.woman' role='button'>
               <MDBIcon fab icon='tiktok' />
-          </MDBBtn>        
+          </MDBBtn>  
+    
         </section>
       </MDBContainer>
 
