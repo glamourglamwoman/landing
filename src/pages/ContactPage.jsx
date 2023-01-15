@@ -9,7 +9,7 @@ const ContactPage = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_da3sggd', 'template_1p81j2b', form.current, '2ABy68lCTolS5F5Ts')
+    emailjs.sendForm('service_kzqsrxx', 'template_ayydag5', form.current, 'lCARTy4JGy0zcDLTc')
       .then((result) => {
           console.log(result.text);
           e.target.reset();
