@@ -46,7 +46,7 @@ const Products = () => {
                
                 <div className="card-body">
                   <a className='btn btn-dark m-1 button-style' target="blank" href={product.url_sales}>
-                    Lo quiero!
+                    Mas Info
                   </a>
                 </div>
               </div>

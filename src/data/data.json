@@ -3,7 +3,7 @@
     {
         "id":"1",
         "image":"/landing/assets/product1.jpg",
-        "title":"Maquillaje profesional en línea y certificado",
+        "title":"Maquillaje Profesional en Línea y Certificado",
         "description": "Conviértete en una maquilladora profesional con el curso online premium y obtén tu certificado de finalización. Aprende de los mejores maquilladores del mundo y sorprende a tus amigos con tus habilidades.",
         "price":"65,00",
         "ofert":"50,05",
@@ -13,16 +13,16 @@
     {
         "id":"2",
         "image":"/landing/assets/product2.png",
-        "title":"Domina el arte de las uñas !",
+        "title":"Domina El Arte De Las Uñas",
         "description": "¡Aprende a ser un experto en uñas con nuestro curso online! En solo unos meses podrás dominar técnicas de decoración y diseño de uñas, y convertirte en un profesional altamente cualificado. ¡No esperes más y únete a nuestro curso hoy mismo!",
         "price":"71,67",
-        "url_sales":"https://go.hotmart.com/C78239973L?ap=602a"
+        "url_sales":"https://go.hotmart.com/C78239973L?dp=1"
 
     },
     {
         "id":"3",
         "image":"/landing/assets/product3.jpg",
-        "title":"Maquilla tus ojos como una experta",
+        "title":"Maquilla Tus Ojos Como Una Experta",
         "description": "Con el curso online de master en ojos, aprenderás a crear miradas deslumbrantes y a destacar tus ojos como nunca antes. ¡Conviértete en una experta en maquillaje de ojos y sorprende a todos con tus habilidades!",
         "price":"22,28",
         "url_sales":"https://go.hotmart.com/G78245150A?dp=1"
@@ -30,7 +30,7 @@
     {
         "id":"4",
         "image":"/landing/assets/product4.jpg",
-        "title":"Transforma tu rostro !",
+        "title":"Transforma Tu Rostro !",
         "description": "Descubre cómo sacar lo mejor de tu rostro con el curso online de automaquillaje, aprende técnicas profesionales y cómo adaptarlas a tu estilo personal.",
         "price":"21,32",
         "url_sales":"https://go.hotmart.com/N78245192A?dp=1"
@@ -38,10 +38,19 @@
     {
         "id":"5",
         "image":"/landing/assets/product5.jpg",
-        "title":"Define tu mirada !",
-        "description": "Con el curso online de cejas y pestañas, darás un toque de profesionalismo a tu look, además de aprender técnicas para definir y potenciar cejas y pestañas naturales",
+        "title":"Definí Tu Mirada !",
+        "description": "Con el curso online de cejas y pestañas, darás un toque de profesionalismo a tu look, además de aprender técnicas para definir y potenciar cejas y pestañas naturales.",
         "price":"79,99",
         "ofert":"67,35",
         "url_sales":"https://go.hotmart.com/D78251683Q?dp=1"
+    },
+        {
+        "id":"6",
+        "image":"/landing/assets/product6.jpg",
+        "title":"Yoga Facial con Aromaterapia",
+        "description": "Aprende a rejuvenecer tu piel y reducir el estrés en solo minutos al día. ¡Transforma tu rutina de cuidado facial con este curso único!",
+        "price":"",
+        "ofert":"",
+        "url_sales":"https://go.hotmart.com/T78529406Q?dp=1"
     }
 ]
