@@ -5,9 +5,9 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top">
             <div className="container">
-                <NavLink className="navbar-brand fw-bold fs-4 px-2" to="/landing"> 
+                <NavLink className="navbar-brand fw-bold fs-4 px-2" to="/"> 
                 <img
-                    src="/landing/assets/logo.png"
+                    src="/assets/logo.png"
                     alt="Card"
                     height={80}
                 />
@@ -19,16 +19,16 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav m-auto my-2 text-center">
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/landing">Home </NavLink>
+                            <NavLink className="nav-link" to="/">Home </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/landing/product">Productos</NavLink>
+                            <NavLink className="nav-link" to="/product">Productos</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/landing/about">Conocenos</NavLink>
+                            <NavLink className="nav-link" to="/about">Conocenos</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/landing/contact">Contacto</NavLink>
+                            <NavLink className="nav-link" to="/contact">Contacto</NavLink>
                         </li>
                     </ul>
                 </div>

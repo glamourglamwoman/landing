@@ -1,2 +1,2 @@
-https://glamourglamwoman.github.io/landing
-https://glamourglamwoman.github.io/landing/product
+https://glamourglamwoman.netlify.app
+https://glamourglamwoman.netlify.app/product

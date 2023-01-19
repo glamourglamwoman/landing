@@ -26,7 +26,7 @@ const Footer = () => {
 
       <div className='text-center p-3 footer-copyright' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         © 2022 Copyright:
-        <a className='text-white footer-brand' href='https://glamourglamwoman.github.io/landing/'>
+        <a className='text-white footer-brand' href='https://glamourglamwoman.netlify.app/'>
           Glamour Glam Woman
         </a>
       </div>
